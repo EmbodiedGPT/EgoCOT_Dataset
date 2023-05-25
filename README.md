@@ -37,10 +37,10 @@ Some key tasks that \model can perform include:
 If you find this project useful in your research, please consider cite:
 
 ```BibTeX
-@misc{2023embodiedgpt,
-    title={EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought},
-    author={Yao Mu, Qinglong Zhang, Mengkang Hu, Wenhai Wang, Mingyu Ding, Jun Jin, Bin Wang, Jifeng Dai, Yu Qiao, Ping Luo},
-    howpublished = {\url{https://arxiv.org/abs/2305.15021)},
-    year={2023}
+@article{anonymousembodiedgpt,
+  author    = {Anonymous},
+  title     = {EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought},
+  journal   = {Under Review},
+  year      = {2023},
 }
 ```
