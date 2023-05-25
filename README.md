@@ -1,4 +1,4 @@
-# EgoCOT Dataset: Embodied Chain-of-Thought for vision language pre-training
+# EgoCOT: Embodied Chain-of-Thought Dataset for Vision Language Pre-training
 
 ![Main Figure](https://github.com/EmbodiedGPT/EgoCOT_Dataset/blob/main/assest/egocot_frame.jpg)
 
