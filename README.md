@@ -24,12 +24,12 @@ The construction of EgoCOT involves a meticulous process to ensure the quality a
 4. Human verification: To guarantee the correctness and clarity of the planning instructions, we engaged human annotators to review and verify each instruction. This step helps eliminate any remaining errors or ambiguities, resulting in a reliable dataset.
 
 ## EmbodiedGPT: End-to-End Multi-Modal Embodied Foundation Model
-EmbodiedGPT is an innovative multi-modal model developed based on the \dataset and EgoVQA datasets. This model provides an end-to-end solution for various embodied tasks, allowing natural and intuitive interaction with the physical world.
+EmbodiedGPT is an innovative multi-modal model developed based on the EgoCOT and EgoVQA datasets. This model provides an end-to-end solution for various embodied tasks, allowing natural and intuitive interaction with the physical world.
 
-Some key tasks that \model can perform include:
-- Embodied planning: \model leverages the planning instructions from \dataset to execute chain-of-thought planning tasks efficiently and accurately.
-- Embodied VQA: With the EgoVQA dataset, \model is capable of answering questions related to egocentric human-object interaction in videos, enabling a deeper understanding of the embodied environment.
-- Embodied control: Through the integration of multi-modal data, \model can effectively control and interact with the physical world, enhancing its embodiment capabilities.
+Some key tasks that EmboodiedGPT can perform include:
+- Embodied planning: EmboodiedGPT leverages the planning instructions from EgoCOT to execute chain-of-thought planning tasks efficiently and accurately.
+- Embodied VQA: With the EgoVQA dataset, EmboodiedGPT is capable of answering questions related to egocentric human-object interaction in videos, enabling a deeper understanding of the embodied environment.
+- Embodied control: Through the integration of multi-modal data, EmboodiedGPT can effectively control and interact with the physical world, enhancing its embodiment capabilities.
 
 
 ## 🖊️ Citation
