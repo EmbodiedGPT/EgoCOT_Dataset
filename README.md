@@ -32,6 +32,45 @@ Some key tasks that EmboodiedGPT can perform include:
 - Embodied control: Through the integration of multi-modal data, EmboodiedGPT can effectively control and interact with the physical world, enhancing its embodiment capabilities.
 
 
+## Description
+
+This dataset contains examples of video data, where each sample consists of a sequence of eight consecutive frames represented as numpy arrays, along with associated captions and embodied planning information. The dataset is intended for tasks related to video analysis, captioning, and embodied planning research. The goal of this dataset is to provide a resource for evaluating the alignment between video data and embodied planning descriptions.
+
+## Data Format
+
+Each data sample in the dataset is represented in JSON format and has the following fields:
+
+- `image`: The file name of the numpy array file containing the sequence of eight consecutive frames representing the video. These frames can be used to reconstruct the video for analysis.
+- `caption`: A brief and simple caption describing the content of the video.
+- `planning`: The embodied planning information associated with the video. It contains a series of actions required to achieve a specific goal in the given video context. The actions are represented as a string, and each action is listed with a corresponding step number. The format is as follows:
+
+  ```
+  pick up the bag of clothes. Put the bag of clothes on the floor.
+  actions:
+  1. pick up(bag of clothes)
+  2. put on(bag of clothes, floor)
+  ```
+
+- `score`: A numeric score indicating the alignment between the video and the embodied planning. The score is calculated based on some metric and measures how well the planning description matches the actual content of the video. Any data samples with a score lower than 0.2 have been removed from the dataset during the data cleaning process.
+
+## Data Sample
+
+Below is an example of a single data sample in the dataset:
+
+```
+{
+  "image": "EGO_1.npy",
+  "caption": "C places the bag of clothes on the floor",
+  "planing": "pick up the bag of clothes. Put the bag of clothes on the floor.\nactions:\n1. pick up(bag of clothes)\n2. put on(bag of clothes, floor)",
+  "score": 0.268310546875
+}
+```
+
+## Dataset Usage
+
+This dataset is made available for research purposes only. Researchers and developers can utilize this dataset to evaluate and benchmark algorithms and models related to video analysis, captioning, and embodied planning. However, users are required to cite the source of the dataset appropriately in their publications or works.
+
+
 ## 🖊️ Citation
 
 If you find this project useful in your research, please consider cite:
