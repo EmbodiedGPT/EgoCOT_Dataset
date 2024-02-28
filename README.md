@@ -1,4 +1,6 @@
 # EgoCOT: Embodied Chain-of-Thought Dataset for Vision Language Pre-training
+
+## Download the cleaned dataset
 [Download Link](https://drive.google.com/drive/folders/1d30x7S5MTz85JuqJcacQpp97T6Z2nbMt?usp=sharing)
 
 ![Main Figure](https://github.com/EmbodiedGPT/EgoCOT_Dataset/blob/main/assest/egocot_frame.jpg)
