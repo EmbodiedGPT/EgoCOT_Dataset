@@ -3,7 +3,7 @@
 ## Download the cleaned dataset
 [Download Link](https://drive.google.com/drive/folders/1d30x7S5MTz85JuqJcacQpp97T6Z2nbMt?usp=sharing)
 
-You can also find the repo of pretraining in [Embodied Family](https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch)
+You can also find the codes of pretraining in [Embodied Family](https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch)
 
 ![Main Figure](https://github.com/EmbodiedGPT/EgoCOT_Dataset/blob/main/assest/egocot_frame.jpg)
 
