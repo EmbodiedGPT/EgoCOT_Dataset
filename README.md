@@ -5,6 +5,8 @@
 
 You can also find the codes of pretraining in [Embodied Family](https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch)
 
+You can also download the testing model named [Embodied_family_7Btiny](https://drive.google.com/file/d/1sBTy8oXeweJg3STbhzBR_5pLcVs1F20q/view?usp=sharing)
+
 ![Main Figure](https://github.com/EmbodiedGPT/EgoCOT_Dataset/blob/main/assest/egocot_frame.jpg)
 
 
