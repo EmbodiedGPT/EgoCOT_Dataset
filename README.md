@@ -2,6 +2,7 @@
 
 ## Download the cleaned dataset
 [Download base version](https://drive.google.com/drive/folders/1d30x7S5MTz85JuqJcacQpp97T6Z2nbMt?usp=sharing)
+
 [Download full version](https://huggingface.co/datasets/wofmanaf/ego4d-video)
 
 You can also find the codes of pretraining in [Embodied Family](https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch)
